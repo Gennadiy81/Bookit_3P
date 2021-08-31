@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com/bookit/step_definitions",
-        dryRun = false,
+        dryRun = true,
         tags = "@wip"
 )
 public class CukesRunner {
