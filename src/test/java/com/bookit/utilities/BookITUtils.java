@@ -23,12 +23,12 @@ public class BookITUtils {
 
     }
 
-    public static String[] getMYInfo(String email, String password){
+    public static String[] getMYInfo(String email, String password) {
 
         String[] myInfo = new String[3];
 
         for (int i = 0; i < 3; i++) {
-            if(i==0){
+            if (i == 0) {
                 // get batch request
                 // myInfo[i]=jsonPath.getstring
             }
@@ -36,11 +36,11 @@ public class BookITUtils {
 
                 // get team request
             }
+            if(i==2){
+                // get campus request
+            }
 
         }
-
-
-
+        return myInfo;
     }
-
-}
+    }
