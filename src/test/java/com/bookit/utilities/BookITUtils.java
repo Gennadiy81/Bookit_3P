@@ -25,7 +25,7 @@ public class BookITUtils {
 
     public static String[] getMYInfo(String email, String password){
 
-        String[] myInfo = new String[];
+        String[] myInfo = new String[3];
 
         for (int i = 0; i < 3; i++) {
             if(i==0){
