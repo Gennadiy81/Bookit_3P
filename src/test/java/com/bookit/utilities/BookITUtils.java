@@ -46,7 +46,7 @@ public class BookITUtils {
                         .get(ConfigurationReader.get("apiUrl")+"/api/batches/my");
 
                 JsonPath jsonPath = response.jsonPath();
-                myInfo[i] = jsonPath.getString("number");
+                myInfo[i] = "#"+jsonPath.getString("number");
             }
             if(i==2){
                 Response response = given().accept(ContentType.JSON)
