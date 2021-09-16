@@ -21,6 +21,7 @@ public class SpartanAPISteps {
         baseURI = ConfigurationReader.get("spartanURI");
 
        int intID = Integer.parseInt(idstring);
+
        response = given().accept(ContentType.JSON)
                 .and().pathParam("id", intID)
                 .when().get("/api/spartans/{id}")

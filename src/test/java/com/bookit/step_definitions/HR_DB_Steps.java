@@ -12,7 +12,7 @@ public class HR_DB_Steps {
     List<Map<String, Object>> queryResult;
     @When("User send a query {string} to {string} database")
     public void user_send_a_query_to_database(String query, String db) {
-       queryResult = DBUtils.getQueryResultMap(query);
+        queryResult = DBUtils.getQueryResultMap(query);
     }
 
     @Then("Result should be written to console")
