@@ -32,13 +32,13 @@
                     <parallel>methods</parallel>
                     <threadCount>5</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
                         <include>**/CukesRunner*.java</include>
                         <include>**/*FailedTestRunner.java</include>
                     </includes>
-                    <testFailureIgnore>false</testFailureIgnore>
+
                 </configuration>
             </plugin>
             <plugin>
