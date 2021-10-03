@@ -1,3 +1,4 @@
+@smoke_test
 Feature: Verify the info from all environment
 
   Scenario: Get the info from UI
@@ -10,7 +11,7 @@ Feature: Verify the info from all environment
     When User logs in BookIT API using "sbirdbj@fc2.com" and "asenorval"
     Then User gets API information
 
-
+  @db
   Scenario: Get the info from DB
     When User sends a query to DataBase with "sbirdbj@fc2.com"
     Then User gets DataBase information
