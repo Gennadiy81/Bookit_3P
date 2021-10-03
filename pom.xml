@@ -38,6 +38,7 @@
                         <include>**/CukesRunner*.java</include>
                         <include>**/*FailedTestRunner.java</include>
                     </includes>
+                    <testFailureIgnore>false</testFailureIgnore>
                 </configuration>
             </plugin>
             <plugin>
